@@ -70,7 +70,7 @@ function nextSequence() {
 }
 
 function playSound(input){
-    var audio=new Audio("sounds/"+input+".mp3");
+    var audio=new Audio(input+".mp3");
     audio.play();
 }
 
